@@ -54,7 +54,7 @@ html{
     /* 10px / 16[x = 0.625 = 62.5% */
     font-size: 62.5%;
 
-    overflow: hidden;
+    overflow:scroll;
 
 
 }
@@ -133,6 +133,7 @@ body{
     cursor: pointer;
 
     display: none;
+    z-index: 1000;
 }
 
 .icon-mobile-nav{
